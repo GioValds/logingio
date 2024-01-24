@@ -1,0 +1,145 @@
+/* styles.css */
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Puedes cambiar la fuente según tus preferencias */
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.card {
+    background-color: #111;
+    color: #fff;
+    border: 2px solid #00ff00; /* Bordes con color neon */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.form-control {
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #00ff00; /* Bordes con color neon */
+    border-radius: 10px; /* Bordes más redondeados */
+}
+
+.btn-primary {
+    font-size: 18px;
+    background-color: #00a2ff; /* Azul más claro para un estilo neon */
+    border: none;
+    padding: 10px 20px; /* Ajusta el relleno del botón */
+}
+
+.btn-secondary {
+    background-color: #00ff00; /* Verde neon */
+    border: none;
+}
+
+.navbar {
+    background-color: #111;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 24px; /* Aumenta el tamaño del texto */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.card.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/* Agrega estilos neon al texto */
+.neon-text {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+#formLogin {
+    max-width: 400px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+.form-group label {
+    font-size: 18px; /* Ajusta el tamaño de la etiqueta del formulario */
+    color: #fff; /* Color del texto */
+}
+
+.form-control {
+    font-size: 16px; /* Ajusta el tamaño del campo de entrada */
+    margin-bottom: 15px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #00ff00; /* Bordes con color neon */
+    border-radius: 10px; /* Bordes más redondeados */
+}
+
+.btn-primary {
+    font-size: 18px; /* Ajusta el tamaño del botón */
+    background-color: #00a2ff; /* Azul más claro para un estilo neon */
+    border: none;
+    padding: 10px 20px; /* Ajusta el relleno del botón */
+}
+
+
+/* styles.css */
+
+/* ... (código anterior) */
+
+.navbar-collapse {
+    position: relative; /* Asegura que el posicionamiento relativo se aplique a .navbar-collapse */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos en la barra de navegación */
+}
+
+.nav-item {
+    margin-left: 15px; /* Espacio entre elementos de la barra de navegación */
+}
+
+#cerrar {
+    background-color: #ff0000; /* Cambia el color del botón Cerrar Sesión a rojo (puedes ajustarlo según tu preferencia) */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 15px; /* Ajusta el relleno del botón */
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    position: relative; /* Asegura que el posicionamiento relativo se aplique a .container */
+}
+
+.card.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Ancho del contenedor de la tarjeta */
+    height: 200px; /* Altura del contenedor de la tarjeta */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* ... (código anterior) */
